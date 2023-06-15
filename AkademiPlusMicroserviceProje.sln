@@ -27,29 +27,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{283D09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2E8C4765-4274-4A3C-AD89-588C35E2FBB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Catalog", "Services\Catalog\AkademiPlusMicroserviceProje.Catalog\AkademiPlusMicroserviceProje.Catalog.csproj", "{80880366-ECBB-4097-A8B4-28A4893E5D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Catalog", "Services\Catalog\AkademiPlusMicroserviceProje.Catalog\AkademiPlusMicroserviceProje.Catalog.csproj", "{80880366-ECBB-4097-A8B4-28A4893E5D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Basket", "Services\Basket\AkademiPlusMicroserviceProje.Basket\AkademiPlusMicroserviceProje.Basket.csproj", "{AC22D78F-DF9F-449E-B8BE-BBC43815F22D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Basket", "Services\Basket\AkademiPlusMicroserviceProje.Basket\AkademiPlusMicroserviceProje.Basket.csproj", "{AC22D78F-DF9F-449E-B8BE-BBC43815F22D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Discount", "Services\Discount\AkademiPlusMicroserviceProje.Discount\AkademiPlusMicroserviceProje.Discount.csproj", "{0D83AEE7-BA73-449E-A983-969CF648B5C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Discount", "Services\Discount\AkademiPlusMicroserviceProje.Discount\AkademiPlusMicroserviceProje.Discount.csproj", "{0D83AEE7-BA73-449E-A983-969CF648B5C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Order", "Services\Order\AkademiPlusMicroserviceProje.Order\AkademiPlusMicroserviceProje.Order.csproj", "{49CF329B-2042-4981-B67D-586B72FA155B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Order", "Services\Order\AkademiPlusMicroserviceProje.Order\AkademiPlusMicroserviceProje.Order.csproj", "{49CF329B-2042-4981-B67D-586B72FA155B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Order.Application", "Services\Order\AkademiPlusMicroserviceProje.Order.Application\AkademiPlusMicroserviceProje.Order.Application.csproj", "{B17DF39A-1A68-43A2-9493-21765A11B65D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Order.Application", "Services\Order\AkademiPlusMicroserviceProje.Order.Application\AkademiPlusMicroserviceProje.Order.Application.csproj", "{B17DF39A-1A68-43A2-9493-21765A11B65D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Order.Domain", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain\AkademiPlusMicroserviceProje.Order.Domain.csproj", "{395847DF-3E46-49C2-B847-68F4B526BE5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Order.Domain", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain\AkademiPlusMicroserviceProje.Order.Domain.csproj", "{395847DF-3E46-49C2-B847-68F4B526BE5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Order.Domain.Core", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain.Core\AkademiPlusMicroserviceProje.Order.Domain.Core.csproj", "{517DC9F1-7788-4A48-9313-F76568BD0FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Order.Domain.Core", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain.Core\AkademiPlusMicroserviceProje.Order.Domain.Core.csproj", "{517DC9F1-7788-4A48-9313-F76568BD0FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Order.Domain.Infrastructure", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain.Infrastructure\AkademiPlusMicroserviceProje.Order.Domain.Infrastructure.csproj", "{0513208D-9C54-44B7-89DF-C0EBB724CA9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Order.Domain.Infrastructure", "Services\Order\AkademiPlusMicroserviceProje.Order.Domain.Infrastructure\AkademiPlusMicroserviceProje.Order.Domain.Infrastructure.csproj", "{0513208D-9C54-44B7-89DF-C0EBB724CA9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.PhotoStock", "Service\PhotoStock\AkademiPlusMicroserviceProje.PhotoStock\AkademiPlusMicroserviceProje.PhotoStock.csproj", "{959016E6-D63B-41DB-87F6-9E16530B4C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.PhotoStock", "Service\PhotoStock\AkademiPlusMicroserviceProje.PhotoStock\AkademiPlusMicroserviceProje.PhotoStock.csproj", "{959016E6-D63B-41DB-87F6-9E16530B4C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.FakePayment", "Services\FakePayment\AkademiPlusMicroserviceProje.FakePayment\AkademiPlusMicroserviceProje.FakePayment.csproj", "{2D1141D3-774D-48D7-9724-1A71CA07B0E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.FakePayment", "Services\FakePayment\AkademiPlusMicroserviceProje.FakePayment\AkademiPlusMicroserviceProje.FakePayment.csproj", "{2D1141D3-774D-48D7-9724-1A71CA07B0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Frontend", "Frontend\AkademiPlusMicroserviceProje.Frontend\AkademiPlusMicroserviceProje.Frontend.csproj", "{2BA547B2-5FC7-4706-8D4B-3843A916C099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Frontend", "Frontend\AkademiPlusMicroserviceProje.Frontend\AkademiPlusMicroserviceProje.Frontend.csproj", "{2BA547B2-5FC7-4706-8D4B-3843A916C099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroserviceProje.Shared", "Shared\AkademiPlusMicroserviceProje.Shared\AkademiPlusMicroserviceProje.Shared.csproj", "{1D405949-C350-401A-BC6B-66CE41E5CB4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.Shared", "Shared\AkademiPlusMicroserviceProje.Shared\AkademiPlusMicroserviceProje.Shared.csproj", "{1D405949-C350-401A-BC6B-66CE41E5CB4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkademiPlusMicroserviceProje.IdentityServer", "IdentityServer\AkademiPlusMicroserviceProje.IdentityServer\AkademiPlusMicroserviceProje.IdentityServer.csproj", "{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1D405949-C350-401A-BC6B-66CE41E5CB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D405949-C350-401A-BC6B-66CE41E5CB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D405949-C350-401A-BC6B-66CE41E5CB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +134,7 @@ Global
 		{2D1141D3-774D-48D7-9724-1A71CA07B0E2} = {D720CE2B-CF08-4BF6-A8A5-9545563DBC25}
 		{2BA547B2-5FC7-4706-8D4B-3843A916C099} = {C4E84643-F0F7-44AA-B980-63DB86003EEA}
 		{1D405949-C350-401A-BC6B-66CE41E5CB4A} = {283D0984-834D-49CE-8E63-BEF42B92F611}
+		{51A6C9B2-0CF9-45CB-91B7-330FF87E2B2A} = {05801667-FD7A-4917-9748-47ED0702E2CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D54044B-B68A-4E98-8BB5-34038E63D068}

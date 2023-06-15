@@ -1,5 +1,6 @@
 ﻿using AkademiPlusMicroserviceProje.Catalog.Dtos;
 using AkademiPlusMicroserviceProje.Catalog.Services.Abstract;
+using AkademiPlusMicroserviceProje.Shared.ControllerBases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace AkademiPlusMicroserviceProje.Catalog.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoryController : ControllerBase
+    public class CategoryController : CustomBaseController
     {
         private readonly ICategoryService _categoryService;
 
@@ -20,33 +21,33 @@ namespace AkademiPlusMicroserviceProje.Catalog.Controllers
         public async Task<IActionResult> GetAll()
         {
             var categories = await _categoryService.GetAllAsync();
-            return Ok();
+            return CreateActionResultInstance(categories);
 
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID(string id)
         {
-            var category = await _categoryService.GetByIdAsycn(id);
-            return Ok();
+            var categories = await _categoryService.GetByIdAsycn(id);
+            return CreateActionResultInstance(categories);
         }
         [HttpDelete]
         public async Task<IActionResult> Delete(string id)
         {
-            var category = await _categoryService.DeleteAsycn(id);
-            return Ok();
+            var categories = await _categoryService.DeleteAsycn(id);
+            return CreateActionResultInstance(categories);
         }
         
         [HttpPost]
         public async Task<IActionResult> AddCategory(CreateCategoryDto createCategoryDto)
         {
-            var category = await _categoryService.CreateAsycn(createCategoryDto);
-            return Ok();
+            var categories = await _categoryService.CreateAsycn(createCategoryDto);
+            return CreateActionResultInstance(categories);
         }
         [HttpPut]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
         {
-            var category = await _categoryService.UpdateAsycnAsync(updateCategoryDto);
-            return Ok();
+            var categories = await _categoryService.UpdateAsycnAsync(updateCategoryDto);
+            return CreateActionResultInstance(categories);
         }
     }
 }
