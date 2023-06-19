@@ -2,7 +2,11 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using AkademiPlusMicroserviceProje.IdentityServer.Data;
+using AkademiPlusMicroserviceProje.IdentityServer.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -44,6 +48,26 @@ namespace AkademiPlusMicroserviceProje.IdentityServer
                 }
 
                 var host = CreateHostBuilder(args).Build();
+
+                using (var scope = host.Services.CreateScope())
+                {
+                    var servicesProvider = scope.ServiceProvider;
+                    var applicationDbContext = servicesProvider.GetRequiredService<ApplicationDbContext>();
+                    applicationDbContext.Database.Migrate();
+                    var userManager = servicesProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                    if (!userManager.Users.Any())
+                    {
+                        userManager.CreateAsync(new ApplicationUser
+                        {
+                            UserName = "admin",
+                            Email = "dryostundag@gmail.com",
+                            District = "Ataşehir",
+                            UserImage = "test",
+                            City = "İstanbul",
+                            Country = "Turkey",
+                        }).Wait();
+                    }
+                }
 
                 if (seed)
                 {
